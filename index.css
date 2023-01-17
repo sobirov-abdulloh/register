@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  position: absolute;
+  background-color: aqua;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  top: -200px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: 0.8s linear;
+}
+.box h2 {
+  text-align: center;
+  line-height: 45px;
+}
+
+.box input,
+button {
+  padding: 10px;
+  margin: 15px 0;
+}
+.box button {
+  background-color: royalblue;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+/* box2===-=- */
+.box2 {
+  background-color: aqua;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  top: -200px;
+  transition: 0.8s linear;
+}
+.box2 h1{
+    line-height: 45px;
+}
